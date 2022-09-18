@@ -18,7 +18,7 @@ const calcVar = (operator, ...num) => {
         result = num.reduce((res, currentNumber) => res + currentNumber);
     }
     else if (operator === '-') {
-        result = num.reduce((res, currentNumber) => res + currentNumber);
+        result = num.reduce((res, currentNumber) => res - currentNumber);
     }
     else if (operator === '*') {
         result = num.reduce((res, currentNumber) => res * currentNumber);
